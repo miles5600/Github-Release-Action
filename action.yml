@@ -14,3 +14,5 @@ args: ['The release name']
 runs:
   using: 'docker'
   image: 'Dockerfile'
+- name: Github Release
+  uses: elgohr/Github-Release-Action@v3.1
